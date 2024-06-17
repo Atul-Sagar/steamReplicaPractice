@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Steam Store Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo">Steam</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Store</a></li>
+                    <li><a href="#">Library</a></li>
+                    <li><a href="#">Community</a></li>
+                    <li><a href="#">Support</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h2>Featured & Recommended</h2>
+                <div class="featured-game">
+                    <img src="featured-game.jpg" alt="Featured Game">
+                    <div class="game-info">
+                        <h3>Game Title</h3>
+                        <p>Some description about the game.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="game-list">
+            <div class="container">
+                <h2>Top Sellers</h2>
+                <div id="games-container">
+                    <!-- Games will be added here dynamically -->
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Valve Corporation. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
