@@ -1,0 +1,48 @@
+[
+    {
+        "title" : "Game Title 1",
+        "price" : "$19.99",
+        "imgSrc" : "game1.jpg",
+        "description" : "Description for game 1",
+        "hoursPlayed": "50 hours",
+        "screenshots": ["screenshot1-1.jpg", "screenshot1-2.jpg"],
+        "updates": ["Update 1", "Update 2"]
+    },
+    {
+        "title" : "Game Title 2",
+        "price" : "$29.99",
+        "imgSrc" : "game2.jpg",
+        "description" : "Description for game 2",
+        "hoursPlayed": "50 hours",
+        "screenshots": ["screenshot1-1.jpg", "screenshot1-2.jpg"],
+        "updates": ["Update 1", "Update 2"]
+    },
+    {
+        "title" : "Game Title 3",
+        "price" : "$39.99",
+        "imgSrc" : "game3.jpg",
+        "description" : "Description for game 2",
+        "hoursPlayed": "50 hours",
+        "screenshots": ["screenshot1-1.jpg", "screenshot1-2.jpg"],
+        "updates": ["Update 1", "Update 2"]
+    },
+    {
+        "title" : "Game Title 4",
+        "price" : "$49.99",
+        "imgSrc" : "game4.jpg",
+        "description" : "Description for game 4",
+        "hoursPlayed": "50 hours",
+        "screenshots": ["screenshot1-1.jpg", "screenshot1-2.jpg"],
+        "updates": ["Update 1", "Update 2"]
+    },
+    {
+        "title" : "Game Title 5",
+        "price" : "$59.99",
+        "imgSrc" : "game5.jpg",
+        "description" : "Description for game 5",
+        "hoursPlayed": "50 hours",
+        "screenshots": ["screenshot1-1.jpg", "screenshot1-2.jpg"],
+        "updates": ["Update 1", "Update 2"]
+    }
+
+]

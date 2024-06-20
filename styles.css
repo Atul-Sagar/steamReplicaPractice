@@ -1,4 +1,4 @@
-body{
+/* body{
     font-family: 'Courier New', Courier, monospace;
     margin: 0;
     padding: 0;
@@ -91,5 +91,100 @@ footer{
         color: #c7d5e0;
         margin: 0;
     }
+}
+ */
+
+ body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1b2838;
+    color: #c7d5e0;
+}
+
+header {
+    background-color: #171a21;
+    padding: 20px 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    color: #66c0f4;
+    font-size: 24px;
+    float: left;
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #c7d5e0;
+    text-decoration: none;
+}
+
+.hero {
+    background-color: #171a21;
+    padding: 50px 0;
+}
+
+.hero h2 {
+    color: #fff;
+}
+
+.featured-game {
+    display: flex;
+    align-items: center;
+}
+
+.featured-game img {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.game-list {
+    padding: 50px 0;
+}
+
+.game-list h2 {
+    color: #fff;
+}
+
+.game-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.game-item img {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+footer {
+    background-color: #171a21;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    color: #c7d5e0;
+    margin: 0;
 }
 
